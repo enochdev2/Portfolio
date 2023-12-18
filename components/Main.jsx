@@ -19,8 +19,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             Highly motivated and a goal-oriented web developer with significant
             knowledge and skills in building and maintaining web application.
-            I&#39;m focused on building responsive front-end web applications
-            integrating back-end technologies. I&#39;m proficient with
+            I focus on building ful-stack web applications. I&#39;m proficient  TAiLWIND-CSS
             JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, EXPRESS, and MONGO_DB .
             Seeking to join a dynamic team where I can utilize my skills to help
             drive the success of the organization.

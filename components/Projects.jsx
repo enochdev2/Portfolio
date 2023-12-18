@@ -26,7 +26,7 @@ const Projects = () => {
             title='Mern_App Admin_Dashboard'
             backgroundImg={dashboard}
             projectUrl='/dashboard'
-            tech='React JS'
+            tech='MERN-STACK'
 
           />
           <ProjectItem
