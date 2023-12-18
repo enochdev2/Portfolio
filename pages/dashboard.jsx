@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import dashboard from '../public/assets/projects/full_stack_dashboard.png';
+
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import { BsBackspaceReverse } from 'react-icons/bs';
 
 const crypto = () => {
   return (
@@ -13,12 +15,12 @@ const crypto = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={dashboard}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Admin_Dashbord App</h2>
+          <h3>React JS/ Material-Ui/Express/Mongo_db / Redux/ Redux_Query</h3>
         </div>
       </div>
 
@@ -38,14 +40,14 @@ const crypto = () => {
             package. This application was built using the Coin Gecko API.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/enochdev2/Full-Stack_DashBorad_App'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://cryptobase-yt.web.app/'
+            href='https://full-stack-dashboard-4cck.onrender.com/dashboard'
             target='_blank'
             rel='noreferrer'
           >
@@ -61,13 +63,13 @@ const crypto = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Material-UI
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Express
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Coin Gecko API
@@ -79,7 +81,7 @@ const crypto = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline bg-cyan-800 px-3 py-2 cursor-pointer'> <BsBackspaceReverse/> Back</p>
         </Link>
       </div>
     </div>

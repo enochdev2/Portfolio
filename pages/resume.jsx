@@ -71,7 +71,7 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
+            <span className='px-2'>|</span>Express
             <span className='px-2'>|</span>NoSQL
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
