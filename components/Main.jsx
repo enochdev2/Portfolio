@@ -1,15 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import MainContent from "./MainContent";
 import { motion } from "framer-motion";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import MainContent from "./mainContent";
 // import cardsvideo from "../public/assets/cardsvideo.webm";
 
 const Main = () => {
   return (
-    <div className="relative flex flex-col h-full w-full" id="about-me">
+    <div className="relative flex flex-col h-full w-full" id="">
       <video
         autoPlay
         muted
