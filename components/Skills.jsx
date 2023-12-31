@@ -48,9 +48,9 @@ const Skills = () => {
     >
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className=" text-white  mt-[10px] text-center mb-[15px]"
+        className=" text-white px-1 mx-auto  mt-[5px] text-center mb-[10px]"
       >
-        <div id="skills" className="w-full lg:h-screen p-2 text-white">
+        <div id="skills" className="w-full lg:h-screen px-1 text-white">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
             <SkillText />
             <p className="text-xl tracking-widest mb-4 font-bold uppercase text-[#5651e5]">
@@ -150,7 +150,7 @@ const Skills = () => {
                     <Image src={MongoImg} width="36px" height="36px" alt="/" />
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <h3>Nongo db</h3>
+                    <h3>Mongo_db</h3>
                   </div>
                 </div>
               </div>
