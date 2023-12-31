@@ -3,7 +3,7 @@ import Link from "next/link";
 import SideBar from "./SideBar";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BiMenu } from "react-icons/bi"
+import { BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -86,14 +86,14 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <div className="ml-4 cursor-pointer" >
-          <BiMenu  size={30} onClick={handleMenu}/>
+        <div className="ml-4 cursor-pointer sm:hidden">
+          <BiMenu size={30} onClick={handleMenu} />
         </div>
-        {nav &&
-        <div className="sm:hidden absolute top-0  left-0">
-        <SideBar handleMenu={handleMenu} />
-        </div>
-        }
+        {nav && (
+          <div className="sm:hidden absolute top-0  left-0">
+            <SideBar handleMenu={handleMenu} />
+          </div>
+        )}
       </div>
     </div>
   );

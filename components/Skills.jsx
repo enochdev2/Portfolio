@@ -48,7 +48,7 @@ const Skills = () => {
     >
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className=" text-white px-1 mx-auto  mt-[5px] text-center mb-[10px]"
+        className=" text-white px-1 mx-auto  mt-[15px] text-center mb-[10px]"
       >
         <div id="skills" className="w-full lg:h-screen px-1 text-white">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
