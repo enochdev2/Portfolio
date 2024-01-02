@@ -23,7 +23,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <span className="font-bold ml-[5px]  sm:block text-lg md:text-xl text-gray-300">
-            TechNoch Dev
+            Dev-Noch
           </span>
         </a>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="mx-3">
+              <div className="mx-3 text-sky-600">
                 <FaLinkedinIn size={26} />
               </div>
             </a>
@@ -80,13 +80,13 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="">
+              <div className="text-slate-300">
                 <FaGithub size={26} />
               </div>
             </a>
           </div>
         </div>
-        <div className="ml-4 cursor-pointer sm:hidden">
+        <div className="ml-4 cursor-pointer sm:hidden text-slate-300">
           <BiMenu size={30} onClick={handleMenu} />
         </div>
         {nav && (

@@ -11,11 +11,11 @@ const About = () => {
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 space-y-2">
-          <p className="uppercase text-xl tracking-widest text-[#433dac]">
+          <p className="uppercase text-xl tracking-widest font-bold text-[#433dac]">
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-300">
+          <p className="py-2 text-gray-100">
             I&#39;m Highly motivated and a goal-oriented web developer with
             significant knowledge and skills in building and maintaining web
             application. {/* I focus on building ful-stack web applications. */}
@@ -24,7 +24,7 @@ const About = () => {
             I can utilize my skills to help drive for the success of the
             organization.
           </p>
-          <p className="py-2 text-gray-300">
+          <p className="py-2 text-gray-100">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate in learning technologies and i understand there is more
@@ -34,7 +34,7 @@ const About = () => {
             to achieving Cliet satisfaction through technology drive solutions.
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-500 underline cursor-pointer">
+            <p className="py-2 text-gray-100 underline cursor-pointer">
               Check out some of my latest projects.
             </p>
           </Link>

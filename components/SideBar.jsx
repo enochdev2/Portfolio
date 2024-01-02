@@ -33,7 +33,7 @@ const SideBar = ({ handleMenu }) => {
   return (
     <>
       <div
-        className="sm:hidden flex flex-col  absolute  top-[70px] text-white left-0 w-screen h-screen justify-between items-center py-12  z-[30] gap-5"
+        className="sm:hidden flex flex-col  absolute  top-[70px] bg-slate-900/80 text-white left-0 w-screen h-screen justify-between items-center py-12  z-[30] gap-5"
         onClick={() => handleMenu()}
       >
         <div className="flex  h-full flex-col w-full gap-3">
@@ -41,23 +41,23 @@ const SideBar = ({ handleMenu }) => {
             <Link href="/">
               <li
                 onClick={() => handleMenu()}
-                className="cursor-pointer bg-indigo-500 w-[70%] px-3 py3 text-center rounded-lg"
+                className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg"
               >
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li onClick={() => handleMenu()} className="cursor-pointer">
+              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li onClick={() => handleMenu()} className="cursor-pointer">
+              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li onClick={() => handleMenu()} className="cursor-pointer">
+              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
                 Projects
               </li>
             </Link>
@@ -67,7 +67,7 @@ const SideBar = ({ handleMenu }) => {
                 </li>
               </Link> */}
             <Link href="/#contact">
-              <li onClick={() => handleMenu()} className="cursor-pointer">
+              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
                 Contact
               </li>
             </Link>
