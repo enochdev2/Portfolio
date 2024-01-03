@@ -78,18 +78,18 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="py-4 px-3 shadow-xl border border-white rounded-xl hover:scale-105 ease-in duration-300">
-                <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="py-4 px-2 shadow-xl border border-white rounded-xl hover:scale-105 ease-in duration-300">
+                <div className="grid grid-cols-2 gap-1 justify-center items-center">
                   <div className="m-auto">
                     <Image
                       src={Javascript}
-                      width="36px"
-                      height="36px"
+                      width="32px"
+                      height="32px"
                       alt="/"
                     />
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <h3>JavaScript</h3>
+                    <h4 className="text-sm sm:text-base">JavaScript</h4>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ const Skills = () => {
                     />
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <h3>TypeScript</h3>
+                    <h4 className="text-sm sm:text-base">TypeScript</h4>
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Skills = () => {
                     <Image src={MongoImg} width="36px" height="36px" alt="/" />
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <h3>Mongo_db</h3>
+                    <h4 className="text-sm sm:text-base">Mongo_db</h4>
                   </div>
                 </div>
               </div>

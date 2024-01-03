@@ -5,6 +5,7 @@ import dashboard from '../public/assets/projects/full_stack_dashboard.png';
 
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import blogImg from '../public/assets/projects/blog.png'
+import blog1Img from '../public/assets/projects/blog1.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -30,10 +31,10 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='Tech-Noch Blog'
+            backgroundImg={blog1Img}
+            projectUrl='/blog'
+            tech='Next JS'
 
           />
           <ProjectItem

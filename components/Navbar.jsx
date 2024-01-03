@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SideBar from "./SideBar";
 import React, { useState } from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
@@ -65,7 +65,16 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-3">
+            <a
+              href="https://www.facebook.com/prince.ikponmwosa.7?mibextid=ZbWKwL"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="mx-2 text-sky-600">
+                <FaFacebook size={26} />
+              </div>
+            </a>
             <a
               href="https://www.linkedin.com/in/enoch-akhabue-01b991269/"
               target="_blank"

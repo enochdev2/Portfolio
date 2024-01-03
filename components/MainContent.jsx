@@ -19,9 +19,9 @@ const MainContent = () => {
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <div>
-          <h2 className="py-4 text-gray-400">
+          <h2 className="py-4 text-gray-200 sm:text-gray-400">
             Hi, I&#39;m{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-purple-500 sm:to-cyan-500 text-white">
               {" "}
               Enoch Promise
             </span>
@@ -49,14 +49,17 @@ const MainContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-300 text-justify my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website
-          development. Check out my projects and skills.
+          I&apos;m a Full Stack Web Developer with experience in Website
+          development. I’m proficient in crafting seamless and intuitive user
+          interfaces that drives exceptional user experiences. Check out my
+          projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="#about"
         >
           Learn More!
         </motion.a>

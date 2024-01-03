@@ -41,23 +41,32 @@ const SideBar = ({ handleMenu }) => {
             <Link href="/">
               <li
                 onClick={() => handleMenu()}
-                className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg"
+                className="cursor-pointer font-semibold bg-gradient-to-r from-purple-500 to-cyan-500 w-[70%] px-3 py-3 text-center rounded-lg"
               >
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
+              <li
+                onClick={() => handleMenu()}
+                className="cursor-pointer font-semibold  bg-gradient-to-r from-purple-500 to-cyan-500 w-[70%] px-3 py-3 text-center rounded-lg"
+              >
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
+              <li
+                onClick={() => handleMenu()}
+                className="cursor-pointer font-semibold bg-gradient-to-r from-purple-500 to-cyan-500 w-[70%] px-3 py-3 text-center rounded-lg"
+              >
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
+              <li
+                onClick={() => handleMenu()}
+                className="cursor-pointer font-semibold bg-gradient-to-r from-purple-500 to-cyan-500 w-[70%] px-3 py-3 text-center rounded-lg"
+              >
                 Projects
               </li>
             </Link>
@@ -67,7 +76,10 @@ const SideBar = ({ handleMenu }) => {
                 </li>
               </Link> */}
             <Link href="/#contact">
-              <li onClick={() => handleMenu()}  className="cursor-pointer bg-gray-500 w-[70%] px-3 py-3 text-center rounded-lg">
+              <li
+                onClick={() => handleMenu()}
+                className="cursor-pointer font-semibold bg-gradient-to-r from-purple-500 to-cyan-500 w-[70%] px-3 py-3 text-center rounded-lg"
+              >
                 Contact
               </li>
             </Link>

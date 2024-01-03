@@ -81,7 +81,7 @@ const crypto = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='underline bg-cyan-800 px-3 py-2 cursor-pointer'> <BsBackspaceReverse/> Back</p>
+          <p className='underline flex gap-2 px-3 py-2 cursor-pointer'> <BsBackspaceReverse/> Back</p>
         </Link>
       </div>
     </div>

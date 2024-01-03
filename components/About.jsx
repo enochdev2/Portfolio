@@ -19,7 +19,7 @@ const About = () => {
             I&#39;m Highly motivated and a goal-oriented web developer with
             significant knowledge and skills in building and maintaining web
             application. {/* I focus on building ful-stack web applications. */}
-            I&#39;m proficient TAiLWIND-CSS JAVASCRIPT, TYPESCRIPT, REACT,
+            I&#39;m proficient with TAiLWIND-CSS JAVASCRIPT, TYPESCRIPT, REACT,
             NEXTJS, EXPRESS, and MONGO_DB . Seeking to join a dynamic team where
             I can utilize my skills to help drive for the success of the
             organization.
@@ -27,11 +27,11 @@ const About = () => {
           <p className="py-2 text-gray-100">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
-            passionate in learning technologies and i understand there is more
-            than one way to accomplish a task. I am a quick learner and can pick
-            up new tech stacks as needed. Skilled in problem-solving, team
+            passionate in crafting seamless and intuitive user interfaces that
+            drives exceptional user experiences. I am a quick learner and can
+            pick up new tech stacks as needed. Skilled in problem-solving, team
             collaboration, and staying current with industrial trends. Committed
-            to achieving Cliet satisfaction through technology drive solutions.
+            to achieving Cliet satisfaction through technology driven solutions.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-100 underline cursor-pointer">
