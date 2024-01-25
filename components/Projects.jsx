@@ -4,7 +4,7 @@ import realEstateImg from "../public/assets/projects/real_estate.png";
 import dashboard from "../public/assets/projects/full_stack_dashboard.png";
 
 import netflixImg from "../public/assets/projects/netflix.jpg";
-import blogImg from "../public/assets/projects/blog.png";
+import foodOderdering from "../public/assets/projects/foodOrdering.png";
 import blog1Img from "../public/assets/projects/blog1.png";
 import ProjectItem from "./ProjectItem";
 
@@ -36,9 +36,9 @@ const Projects = () => {
             tech="Next JS"
           />
           <ProjectItem
-            title="Tech-Noch Blog"
-            backgroundImg={blogImg}
-            projectUrl="/blog"
+            title="Food-Ordering web application"
+            backgroundImg={foodOderdering}
+            projectUrl="/FoodOrdering"
             tech="Next JS"
           />
         </div>

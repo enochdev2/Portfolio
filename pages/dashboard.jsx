@@ -60,7 +60,7 @@ const crypto = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> React js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Material-UI
@@ -72,10 +72,10 @@ const crypto = () => {
                 <RiRadioButtonFill className='pr-1' /> Express
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coin Gecko API
+                <RiRadioButtonFill className='pr-1' />  Redux
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Routes
+                <RiRadioButtonFill className='pr-1' /> Mongo_DB
               </p>
             </div>
           </div>

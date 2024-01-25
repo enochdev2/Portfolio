@@ -51,9 +51,7 @@ const MainContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-300 text-justify my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Web Developer with experience in Website
-          development. I’m proficient in crafting seamless and intuitive user
-          interfaces that drives exceptional user experiences. Check out my
+          I&apos;m a Full-Stack Web Developer, passionate in developing  scalable and secure Web appliction. I’m proficient in delivering top quality software solutions that drives exceptional user experiences. Check out my
           projects and skills.
         </motion.p>
         <motion.a

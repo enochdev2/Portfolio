@@ -48,7 +48,7 @@ const Skills = () => {
     >
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className=" text-white px-1 mx-auto  mt-[15px] text-center mb-[10px]"
+        className=" text-white px-4 mx-auto  mt-[15px] text-center mb-[10px]"
       >
         <div id="skills" className="w-full lg:h-screen px-1 text-white">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
@@ -174,16 +174,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="py-4 px-3 shadow-xl border border-white rounded-xl hover:scale-105 ease-in duration-300">
-                <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                  <div className="m-auto">
-                    <Image src={Firebase} width="36px" height="36px" alt="/" />
-                  </div>
-                  <div className="flex flex-col items-center justify-center">
-                    <h3>Firebase</h3>
-                  </div>
-                </div>
-              </div>
+  
               <div className="py-4 px-3 shadow-xl border border-white rounded-xl hover:scale-105 ease-in duration-300">
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto  bg-slate-400 rounded-full">
