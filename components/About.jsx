@@ -24,8 +24,7 @@ const About = () => {
             skills to help drive for the success of the organization. {" "}
           </p>
           <p className="py-2 text-gray-100 text-justify">
-            I&#39;m Experienced in full-stack development and having a
-            sufficient knowledge of front-end and back-end framework; proficient
+            As Full-stack developer, I have strong background of front-end and back-end frameworks; proficient
             with TAiLWIND, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, NODE Js,
             EXPRESS, SOLIDITY and MONGO_DB. I specializes in crafting stunning,
             intuitive and mobile responsive user interface applications that
