@@ -1,11 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import realEstateImg from "../public/assets/projects/real_estate.png";
+// import React from "react";
 import dashboard from "../public/assets/projects/full_stack_dashboard.png";
+import realEstateImg from "../public/assets/projects/real_estate.png";
 
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import foodOderdering from "../public/assets/projects/foodOrdering.png";
+import ai_image from "../public/assets/projects/ai_image.png";
 import blog1Img from "../public/assets/projects/blog1.png";
+import communityhub from "../public/assets/projects/communityhub.png";
+import foodOderdering from "../public/assets/projects/foodOrdering.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,6 +17,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4 text-slate-100">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="CommunityHub Application"
+            backgroundImg={communityhub}
+            projectUrl="/Communityhub"
+            tech="Next JS"
+          />
           <ProjectItem
             title="Real-Estate Webapp"
             backgroundImg={realEstateImg}
@@ -35,10 +41,17 @@ const Projects = () => {
             projectUrl="/blog"
             tech="Next JS"
           />
+
           <ProjectItem
             title="Food-Ordering web application"
             backgroundImg={foodOderdering}
             projectUrl="/FoodOrdering"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="AI_IMAGE TRANSFORMATION"
+            backgroundImg={ai_image}
+            projectUrl="/AiImage"
             tech="Next JS"
           />
         </div>

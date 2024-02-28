@@ -16,24 +16,33 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-100 text-justify">
-            I&#39;m Highly motivated and a goal-oriented web developer with the
-            wealth of expertise in designing and implementing scalable,
-            resilient and secure web applications. I&#39;m proficient in crafting
-            seamless and intuitive user interface that drive exceptional user
-            experiences. Seeking to join a dynamic team where I can utilize my
-            skills to help drive for the success of the organization. {" "}
+            I am a seasoned Full-Stack Developer with a passion for crafting
+            innovative web solutions that not only meet but exceed expectations.
+            With a solid foundation in both front-end and back-end technologies,
+            I bring a wealth of experience and expertise to every project I
+            undertake.
+            <br />
+            My proficiency spans a wide spectrum of front-end and back-end
+            technologies, including HTML, CSS, JavaScript, React.js, Next.js, Node.js,
+            Express.js, MongoDB, and more. I possess a keen eye for design
+            coupled with a passion for writing clean, maintainable code. Whether
+            it&#39;s architecting scalable server-side solutions, optimizing
+            performance, or creating intuitive user interfaces, I excel at
+            turning technical requirements into seamless user experiences.
           </p>
           <p className="py-2 text-gray-100 text-justify">
-            As Full-stack developer, I have strong background of front-end and back-end frameworks; proficient
-            with TAiLWIND, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, NODE Js,
-            EXPRESS, SOLIDITY and MONGO_DB. I specializes in crafting stunning,
-            intuitive and mobile responsive user interface applications that
-            seamlessly integrate with back-end APIs and other backend
-            technologies.  I am a quick
-            learner and can pick up new tech stacks as needed. Skilled in
-            problem-solving, team collaboration, and staying current with
-            industrial trends. Committed to achieving Client satisfaction through
-            technology driven solutions.
+            I maintain an unwavering commitment to excellence, backed by a track
+            record of delivering projects on time and within budget, often
+            exceeding set objectives. My dedication to clear communication,
+            transparency, and building strong relationships ensures that client
+            needs are not only met but exceeded.
+            <br />
+            Driven by a passion for innovation and a relentless pursuit of
+            excellence, I am eager to explore how my skills and expertise can
+            contribute to your project's success. Please don&#39;t hesitate to reach
+            out to me to discuss your requirements further. I am excited about
+            the prospect of collaborating with you and am confident in my
+            ability to deliver exceptional results.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-100 underline cursor-pointer">

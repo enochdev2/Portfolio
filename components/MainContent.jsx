@@ -42,7 +42,7 @@ const MainContent = () => {
             Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-             you with the best{" "}
+              you with the best{" "}
             </span>
             digital experiences
           </span>
@@ -51,8 +51,10 @@ const MainContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-300 text-justify my-5 max-w-[600px]"
         >
-          I&apos;m a Full-Stack Web Developer, passionate in developing  scalable and secure Web appliction. I’m proficient in delivering top quality software solutions that drives exceptional user experiences. Check out my
-          projects and skills.
+          I&apos;m a Full-Stack Web Developer proficient in creating visually
+          appealing, mobile-responsive, scalable, secure, and high-performance
+          web applications that deliver exceptional user experiences. Take a
+          look at my projects and skills. 
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
