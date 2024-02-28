@@ -39,7 +39,7 @@ const About = () => {
             <br />
             Driven by a passion for innovation and a relentless pursuit of
             excellence, I am eager to explore how my skills and expertise can
-            contribute to your project's success. Please don&#39;t hesitate to reach
+            contribute to your project&#39;s success. Please don&#39;t hesitate to reach
             out to me to discuss your requirements further. I am excited about
             the prospect of collaborating with you and am confident in my
             ability to deliver exceptional results.
