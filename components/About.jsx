@@ -24,7 +24,7 @@ const About = () => {
             <br />
             My proficiency spans a wide spectrum of front-end and back-end
             technologies, including HTML, CSS, JavaScript, React.js, Next.js, Node.js,
-            Express.js, MongoDB, and more. I possess a keen eye for design
+            Express.js, MongoDB, Solidity, Web3 and more. I possess a keen eye for design
             coupled with a passion for writing clean, maintainable code. Whether
             it&#39;s architecting scalable server-side solutions, optimizing
             performance, or creating intuitive user interfaces, I excel at
