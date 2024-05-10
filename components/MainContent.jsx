@@ -51,9 +51,9 @@ const MainContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-300 text-justify my-5 max-w-[600px]"
         >
-          I&apos;m a Full-Stack Web Developer proficient in creating visually
+          I&apos;m a Full-Stack Web and Blockchain Developer proficient in creating visually
           appealing, mobile-responsive, scalable, secure, and high-performance
-          web applications that deliver exceptional user experiences. Take a
+          web and Blockchain applications that deliver exceptional user experiences. Take a
           look at my projects and skills. 
         </motion.p>
         <motion.a
