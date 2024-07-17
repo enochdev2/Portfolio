@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/enoch-akhabue-01b991269/"
+                    href="https://www.linkedin.com/in/enoch-akhabue-%F0%9F%92%BB-full-stack-developer-01b991269/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,11 +74,8 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form
-                action="https://getform.io/f/a28a63d2-d285-49e6-aa64-157b4eff4552"
-                method="POST"
-                encType="multipart/form-data"
-              >
+            <form action="https://getform.io/f/bolgoyla" method="POST">
+                {/* encType="multipart/form-data" */}
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>

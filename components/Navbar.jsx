@@ -76,7 +76,7 @@ const Navbar = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/enoch-akhabue-01b991269/"
+              href="https://www.linkedin.com/in/enoch-akhabue-%F0%9F%92%BB-full-stack-developer-01b991269/"
               target="_blank"
               rel="noreferrer"
             >

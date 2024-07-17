@@ -15,9 +15,9 @@ const MainContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center sm:px-20   px-8 mt-28 w-full z-[20]"
+      className="flex flex-row items-center justify-center sm:px-8 md:px-20   px-8 mt-36 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full md:w-full  flex flex-col  md:gap-5 justify-center m-auto text-start">
         <div>
           <h2 className="py-4 text-gray-200 sm:text-gray-400">
             Hi, I&#39;m{" "}
@@ -36,7 +36,7 @@ const MainContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-8 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -49,12 +49,10 @@ const MainContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-300 text-justify my-5 max-w-[600px]"
+          className="md:text-lg sm:text-base text-gray-300 text-justify mt-14 my-5 md:max-w-[800px] sm:w-full"
         >
-          I&apos;m a Full-Stack Web and Blockchain Developer proficient in creating visually
-          appealing, mobile-responsive, scalable, secure, and high-performance
-          web and Blockchain applications that deliver exceptional user experiences. Take a
-          look at my projects and skills. 
+          {/* I&apos; */}
+          As a seasoned Full-Stack Web and Blockchain Developer, I specialize in crafting cutting-edge applications that address critical business needs. My track record includes boosting revenue, driving traffic, and generating leads for clients through scalable, secure, and visually captivating software solutions. Explore my portfolio and discover how I can elevate your digital presence! 
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
